@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSharp", "RedisSharp.csproj", "{165E0505-F29B-4ED4-A004-DD6472D4D430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest", "RedisTest\RedisTest.csproj", "{04B4656A-705E-4175-B768-FFEFDF2A075F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigWebApp", "ConfigWebApp\ConfigWebApp.csproj", "{A64681EE-97A4-4AD1-9999-DA1820D34866}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ConfigWebApp.Azure", "ConfigWebApp.Azure\ConfigWebApp.Azure.ccproj", "{800195C8-EA36-4038-A675-7BCA6933259C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{165E0505-F29B-4ED4-A004-DD6472D4D430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165E0505-F29B-4ED4-A004-DD6472D4D430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165E0505-F29B-4ED4-A004-DD6472D4D430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165E0505-F29B-4ED4-A004-DD6472D4D430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B4656A-705E-4175-B768-FFEFDF2A075F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B4656A-705E-4175-B768-FFEFDF2A075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B4656A-705E-4175-B768-FFEFDF2A075F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B4656A-705E-4175-B768-FFEFDF2A075F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64681EE-97A4-4AD1-9999-DA1820D34866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64681EE-97A4-4AD1-9999-DA1820D34866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64681EE-97A4-4AD1-9999-DA1820D34866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64681EE-97A4-4AD1-9999-DA1820D34866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800195C8-EA36-4038-A675-7BCA6933259C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800195C8-EA36-4038-A675-7BCA6933259C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800195C8-EA36-4038-A675-7BCA6933259C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800195C8-EA36-4038-A675-7BCA6933259C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
