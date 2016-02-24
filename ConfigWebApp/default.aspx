@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="config_data_input.aspx.cs" Inherits="ConfigWebApp.config_data_input" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ConfigWebApp.config_data_input" %>
 
 <!DOCTYPE html>
 
