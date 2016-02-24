@@ -9,7 +9,7 @@ namespace ConfigWebApp
 {
     public partial class config_data_input : System.Web.UI.Page
     {
-        public string ConnectionStringValue = "Data Source=rd-rigel;Initial Catalog=Polaris;Integrated Security=False;User ID=Polaris;Password=polaris;Persist Security Info=True;Application Name=Polaris Application Services;";
+        //public string ConnectionStringValue = "Data Source=rd-rigel;Initial Catalog=Polaris;Integrated Security=False;User ID=Polaris;Password=polaris;Persist Security Info=True;Application Name=Polaris Application Services;";
         protected void Page_Load(object sender, EventArgs e)
         {
             Page.DataBind();

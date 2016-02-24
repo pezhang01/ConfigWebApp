@@ -8,23 +8,41 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <style type="text/css">
+             .Style1
+              {
+               font-size:11px;
+               color:#5B5B5B;
+              }
+            .CellLong {
+                width: 80%;
+            }
+            .CellMedium {
+                width: 40%;
+            }
+            .CellShort {
+                width: auto;
+            }
+        </style>
+
+
         <div>
             <asp:Table runat="server" ID="ConfigSettings">
                 <asp:TableHeaderRow>
                     <asp:TableHeaderCell>Key</asp:TableHeaderCell>
-                    <asp:TableHeaderCell>Value</asp:TableHeaderCell>
+                    <asp:TableHeaderCell width="80%">Value</asp:TableHeaderCell>
                 </asp:TableHeaderRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label runat="server">AuthorizationLevel:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="AuthorizationLevel" runat="server"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="AuthorizationLevel" runat="server" width="40%"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label1" runat="server">AuthorizationDebugPolarisUsername:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="AuthorizationDebugPolarisUsername" runat="server"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="AuthorizationDebugPolarisUsername" runat="server" width="40%"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label2" runat="server">ERMSAddress:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="ERMSAddress" runat="server"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="ERMSAddress" runat="server" width="40%"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label3" runat="server">CompressionEnabled:</asp:Label></asp:TableCell>
@@ -44,7 +62,7 @@
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label4" runat="server">ExternalHostname</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="ExternalHostname" runat="server"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="ExternalHostname" runat="server" width="40%"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label8" runat="server">Authentication_MachineAccountsAllowed:</asp:Label></asp:TableCell>
@@ -63,8 +81,9 @@
                     <asp:TableCell><asp:CheckBox ID="Access_RemotePermissionRequired" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
-                    <asp:TableCell><asp:Label ID="Label12" runat="server">connectionString:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="connectionString" runat="server" value="<%# ConnectionStringValue %>"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:Label ID="Label12" runat="server">ConnectionString:</asp:Label></asp:TableCell>
+                    <%--<asp:TableCell ColumnSpan="3"><asp:TextBox ID="connectionString" runat="server" value="<%# ConnectionStringValue %>"></asp:TextBox></asp:TableCell>--%>
+                    <asp:TableCell><asp:TextBox ID="connectionString" runat="server" width="100%"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
             </asp:Table>
         </div>
