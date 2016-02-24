@@ -14,7 +14,10 @@ namespace ConfigWebApp
         {
             Page.DataBind();
 
-            _loadFromRedisCache();
+            if (!Page.IsPostBack)
+            {
+                _loadFromRedisCache();
+            }
         }
 
         protected void Submit_Click(object sender, EventArgs e)

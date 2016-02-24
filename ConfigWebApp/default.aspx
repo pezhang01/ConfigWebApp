@@ -16,51 +16,51 @@
                 </asp:TableHeaderRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label runat="server">AuthorizationLevel:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="AuthorizationLevel" runat="server" value="ALL"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="AuthorizationLevel" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label1" runat="server">AuthorizationDebugPolarisUsername:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="AuthorizationDebugPolarisUsername" runat="server" value=""></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="AuthorizationDebugPolarisUsername" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label2" runat="server">ERMSAddress:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="ERMSAddress" runat="server" value="QA-Rigel.PolarisLibrary.com"></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="ERMSAddress" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label3" runat="server">CompressionEnabled:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="CompressionEnabled" runat="server" checked="true"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="CompressionEnabled" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label5" runat="server">WebApiTraceMessagesEnabled:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="WebApiTraceMessagesEnabled" runat="server" checked="false"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="WebApiTraceMessagesEnabled" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label6" runat="server">HttpMessageLoggingEnabled:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="HttpMessageLoggingEnabled" runat="server" checked="false"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="HttpMessageLoggingEnabled" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label7" runat="server">CachePermissions:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="CachePermissions" runat="server" checked="true"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="CachePermissions" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label4" runat="server">ExternalHostname</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:TextBox ID="ExternalHostname" runat="server" value=""></asp:TextBox></asp:TableCell>
+                    <asp:TableCell><asp:TextBox ID="ExternalHostname" runat="server"></asp:TextBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label8" runat="server">Authentication_MachineAccountsAllowed:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="Authentication_MachineAccountsAllowed" runat="server" checked="false"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="Authentication_MachineAccountsAllowed" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label9" runat="server">Authentication_RemoteEnabled:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="Authentication_RemoteEnabled" runat="server" checked="false"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="Authentication_RemoteEnabled" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label10" runat="server">Access_LeapPermissionRequired:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="Access_LeapPermissionRequired" runat="server" checked="true"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="Access_LeapPermissionRequired" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label11" runat="server">Access_RemotePermissionRequired:</asp:Label></asp:TableCell>
-                    <asp:TableCell><asp:CheckBox ID="Access_RemotePermissionRequired" runat="server" checked="false"></asp:CheckBox></asp:TableCell>
+                    <asp:TableCell><asp:CheckBox ID="Access_RemotePermissionRequired" runat="server"></asp:CheckBox></asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell><asp:Label ID="Label12" runat="server">connectionString:</asp:Label></asp:TableCell>
