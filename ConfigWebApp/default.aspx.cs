@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Drawing;
 
 namespace ConfigWebApp
 {
@@ -50,11 +51,19 @@ namespace ConfigWebApp
                 }
             }
 
+            // try to save an image
+            System.Drawing.Image img = System.Drawing.Image.FromFile(@"C:\Users\peng.zhang\Pictures\golf2.jpg");
+            System.IO.MemoryStream ms = new System.IO.MemoryStream();
+            img.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+            RedisCache.Set("myimage", ms.ToArray());
+
             //RedisCache.Get("foo");
         }
 
         private void _loadFromRedisCache()
         {
+            //Next step: dynamically insert TableRows into Table.ConfigSettings
+
             foreach (TableRow row in ConfigSettings.Rows)
             {
                 foreach (TableCell cell in row.Cells)

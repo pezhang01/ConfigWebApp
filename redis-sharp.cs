@@ -87,6 +87,18 @@ public class RedisCache : IDisposable
         return cache.StringGet(key);
     }
 
+    public static void Set(string key, byte[] value)
+    {
+        IDatabase cache = Connection.GetDatabase();
+        cache.StringSet(key, value);
+    }
+
+    public static byte[] GetBytes(string key)
+    {
+        IDatabase cache = Connection.GetDatabase();
+        return cache.StringGet(key);
+    }
+
     public static void FlushAll()
     {
         IDatabase cache = Connection.GetDatabase();
